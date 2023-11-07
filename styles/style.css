@@ -1,0 +1,105 @@
+/* styles/style.css */
+
+body{font-family: Arial, Helvetica, sans-serif;
+    margin:0 ;
+    padding: 0;
+    background-color: f7f7f7;}
+header {display: grid;
+    background-color: #2b2d42;
+        color: white;
+        padding: 20px;
+        text-align: center; }
+    
+nav {background-color: #6f7364;;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;}
+    
+    nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;}
+    .menu-category {
+    background-color: #edf2f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #888888;
+    color: black;}
+    
+.menu-category h2 {
+    color: #ef233c;}
+    
+.menu-category ul {list-style-type: none;
+padding:0;}
+.menu-category li {margin-bottom: 20px;}
+    
+.menu-category img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;}
+footer {
+        color: white;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        background-color: #6f7364;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 10px;
+        padding-right: 25;}
+    
+.social img {width: 30px;
+margin: 0 10px;}
+/* styles/style.css */
+
+/* ... (autres styles) ... */
+
+.menu-category ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Deux colonnes dynamiques */
+    grid-gap: 20px; /* Espacement entre les éléments de la grille */
+    justify-content: center; /* Centre les éléments horizontalement */
+}
+
+.menu-category li {
+    text-align: center;
+    background-color:#8d99ae;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.menu-category img {
+    width: 250px;
+    height: 200px;}
+
+/* ... (autres styles) ... */
+main {margin-bottom: 20px;}
+footer {margin-top: 20px;}
+#hero-box {
+    text-align: center;
+    margin-top: 50px;
+    position: relative; /* Assure que les éléments à l'intérieur sont positionnés par rapport à ce conteneur */
+}
+
+#hero-img {
+    width: 100%; /* Ajuste l'image pour remplir la largeur du conteneur */
+    height: auto; /* Garantit que l'image conserve ses proportions */
+}
+
+#hero-text {
+    position: absolute; /* Positionne le texte par rapport au conteneur parent (hero-box) */
+    top: 50%; /* Place le texte à 50% du haut du conteneur parent */
+    left: 50%; /* Place le texte à 50% de la gauche du conteneur parent */
+    transform: translate(-50%, -50%); /* Centre le texte horizontalement et verticalement */
+    color: white; /* Couleur du texte */
+    font-size: 36px; /* Taille de la police du texte */
+    font-weight: bold; /* Gras pour le texte en surbrillance */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Ombre du texte pour le rendre plus lisible sur l'image */
+}
+#logo{width: 100%;}
