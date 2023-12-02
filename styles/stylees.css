@@ -6,7 +6,7 @@ body {
 }
 header {display: grid;
     background-color: #edf2f4;
-        color: white;
+        color: black;
         padding: 20px;
         text-align: center; }
 
@@ -69,8 +69,8 @@ margin-bottom: 50px;}
 cursor: pointer;}
 footer{margin-bottom: -40px;}
 
-.booktable{background-color: rgb(225, 217, 198);}
-body{background-color: rgb(240, 237, 230);}
+.booktable{background-color: #d90429;}
+body{background-color: #d90429;}
 .logo{width: 50px;}
 #logo{width: 100%;
     height: 100%;

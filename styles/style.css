@@ -14,7 +14,8 @@ nav {background-color: #6f7364;;
     padding: 10px;
     text-align: center;
     width: 100%;
-    height: auto;}
+    height: auto;
+    justify-content: space-around;}
     
     nav a {
     margin: 0 15px;
